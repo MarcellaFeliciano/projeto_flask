@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, make_response, redirect, url_for, session
 import sqlite3
 
+# teste
 app = Flask(__name__)
 
 app.config['SECRET_KEY'] = 'muitodificil'
